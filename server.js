@@ -11,7 +11,7 @@ app.get('/', (req, res)=>{
 app.use(express.static(__dirname+"/dist"));
 
 /*let port=process.env.PORT || 5000;*/
-app.listen(3000,()=>{
+app.listen(4000,()=>{
     console.log(__dirname);
-    console.log("listening port" + 3000);
+    console.log("listening port" + 4000);
 });

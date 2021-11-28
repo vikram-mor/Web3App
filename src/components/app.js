@@ -11,7 +11,7 @@ class App extends React.Component{
       render(){
         return(
           <div className="container">
-              <input className="btn btn-primary" type="submit" value="ALERT" onClick={()=>{alert("Alert on click");}}></input>
+              <input className="btn btn-primary" type="submit" value="Auth" onClick={()=>{alert("Alert on click");}}></input>
             
           </div>
         )
