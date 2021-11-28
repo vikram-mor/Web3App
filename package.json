@@ -1,9 +1,12 @@
 {
     "name": "mweb3-demo",
     "version": "0.1.0",
+    "private": "true",
     "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack",
         "watch": "webpack --watch"
+        
     },
     "dependencies": {
         "@babel/preset-env": "^7.16.4",

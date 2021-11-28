@@ -1,6 +1,7 @@
 module.exports={
+    mode: 'development',
     entry:[
-        './src/components/main.js'
+        './src/main.js'
     ],
     output: {
         filename:'build.js'
@@ -16,4 +17,4 @@ module.exports={
             }
         ]
     }
-}
+};
